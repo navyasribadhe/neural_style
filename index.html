@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css"
+
+    <title>Neural Style Transfer</title>
+</head>
+<body>
+    <h2>Upload Content and Style Images</h2>
+    <form action="/stylize" method="post" enctype="multipart/form-data">
+        <label>Content Image:</label><br>
+        <input type="file" name="content" required><br><br>
+        <label>Style Image:</label><br>
+        <input type="file" name="style" required><br><br>
+        <input type="submit" value="Stylize">
+    </form>
+</body>
+</html>
